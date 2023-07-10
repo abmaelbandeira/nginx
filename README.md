@@ -1,6 +1,6 @@
 # Configuração básica do Nginx
 
-Este é um projeto básico que demonstra como configurar o servidor web Nginx usando o Docker Compose. O Nginx é um servidor web popular que pode ser usado para hospedar sites, aplicativos da web e outros serviços.
+Este é um projeto básico que demonstra como configurar o servidor web Nginx usando o Docker Compose, usando proxy reverse e load balancer. O Nginx é um servidor web popular que pode ser usado para hospedar sites, aplicativos da web e outros serviços.
 
 ## Pré-requisitos
 
