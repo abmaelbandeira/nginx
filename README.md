@@ -23,7 +23,7 @@ cd <NOME_DO_DIRETÓRIO>
 3. Inicie os contêiners do Nginx usando o Docker Compose.
 ```bash
 docker-compose up -d
-bash
+```
 
 4. Instale o Bash e o nano dentro do contêiner do Nginx.
 ```bash
@@ -47,7 +47,6 @@ nginx: configuration file /etc/nginx/nginx.conf test is successful
 ```bash
 nginx -s reload
 ```
-
 
 ## Conclusão
 Este projeto básico fornece um exemplo simples de como configurar o servidor Nginx usando o Docker Compose e usando load balancer. Você pode personalizar ainda mais a configuração do Nginx de acordo com suas necessidades específicas, consultando a documentação oficial do Nginx em nginx.org.
