@@ -1,0 +1,12 @@
+# No servidor principal do nginx
+# arquivo /etc/nginx/conf.d/default.conf
+
+server {
+    listen       80;
+    server_name  localhost;
+
+    location / {
+        proxy_pass http://node1;
+    }
+
+}
