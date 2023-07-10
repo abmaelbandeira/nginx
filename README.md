@@ -12,12 +12,12 @@ Siga os passos abaixo para configurar o Nginx usando este projeto:
 
 1. Clone este repositório em sua máquina local.
 ```bash
-git clone <URL_DO_REPOSITÓRIO>
+git clone https://github.com/abmaelbandeira/nginx.git
 ```
 
 2. Navegue até o diretório clonado.
 ```bash
-cd <NOME_DO_DIRETÓRIO>
+cd nginx
 ```
 
 3. Inicie os contêiners do Nginx usando o Docker Compose.
